@@ -11,7 +11,7 @@ def Tran_Eff(VSC, ISC, WSC):
 def main():
     st.title("2305A21L01-PS-8")
     
-    st.header("Transformer Short Circuit Test Calculator")
+    st.header("calculate the winding resistance and reactance of a transformer based on short circuit test")
     
     VSC = st.number_input("Enter VSC (in Volts)", min_value=0.00)
     ISC = st.number_input("Enter ISC (in Amperes)", min_value=0.00)
